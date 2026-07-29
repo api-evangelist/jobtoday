@@ -1,7 +1,26 @@
 aid: jobtoday
 name: JobToday
-description: 'JobToday is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'JobToday is a mobile-first hiring marketplace that connects job seekers
+  directly with employers for fast, chat-based hiring, primarily across service industries
+  such as hospitality, retail, and customer service. Founded in 2015 and headquartered
+  in Luxembourg (JobToday S.A.), the app lets employers post jobs and message candidates
+  directly, with the company reporting that roughly 70% of matches happen within 24
+  hours. JobToday operates across 20+ countries including the UK, US, Spain, Mexico,
+  and France, and reports tens of millions of job seekers and hundreds of thousands
+  of hiring businesses. It is backed by Accel. JobToday is a consumer mobile product
+  and does not publish a public developer API.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.jobtoday.com/pics/share-pict-1200x630@2x.jpg
 url: https://raw.githubusercontent.com/api-evangelist/jobtoday/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Jobs
+- Recruitment
+- Hiring
+- Marketplace
+- Employment
+- Staffing
+- Mobile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: http://www.jobtoday.com
+- type: Support
+  url: https://help.jobtoday.com/en/
+- type: Blog
+  url: https://jobtoday.com/us/blog-us/
+- type: SignUp
+  url: https://jobtoday.com/us/landings/hire
+- type: TermsOfService
+  url: https://jobtoday.com/us/legal/tos
+- type: PrivacyPolicy
+  url: https://jobtoday.com/us/legal/privacy
+- type: DomainSecurity
+  url: security/jobtoday-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
