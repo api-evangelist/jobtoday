@@ -9,6 +9,17 @@ description: 'JobToday is a mobile-first hiring marketplace that connects job se
   and France, and reports tens of millions of job seekers and hundreds of thousands
   of hiring businesses. It is backed by Accel. JobToday is a consumer mobile product
   and does not publish a public developer API.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
