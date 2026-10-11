@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "jobtoday",
+    "captured_at": "2026-10-11T190912",
+    "source_url": "http://www.jobtoday.com",
+    "source_type": "Website",
+    "file": "jobtoday-2026-10-11T190912.png",
+    "bytes": 255255,
+    "capture": "playwright-local"
+  }
+]
